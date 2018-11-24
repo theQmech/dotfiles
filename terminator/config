@@ -1,0 +1,25 @@
+[global_config]
+  title_hide_sizetext = True
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    alternate_screen_scroll = False
+    audible_bell = True
+    background_image = None
+    font = Monaco 12
+    foreground_color = "#ffffff"
+    icon_bell = False
+    scroll_on_keystroke = False
+    scroll_on_output = False
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
